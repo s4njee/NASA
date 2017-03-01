@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 #{title}
+  h3= date
+  br
+  a(href="http://localhost:3005/"+prevDate) Previous Image
+  if prevDate >0
+    -var nextDate = prevDate - 2;
+    a(class="right" href="http://localhost:3005/"+nextDate) Next Image
+  img(src=img)
+  p=exp

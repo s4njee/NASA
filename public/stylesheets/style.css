@@ -1,0 +1,33 @@
+body {
+ background:#222;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color:#FFF;
+  width:100%;
+}
+
+a {
+  color: #DDD;
+}
+img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    width: auto\9;
+}
+p {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.right{
+    float: right;
+    padding-right: 100px;
+}
+body a {
+    padding-left: 50px;
+}
+
